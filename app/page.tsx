@@ -1,5 +1,6 @@
 import FeatureCards from "@/components/FeatureCards";
 import FeatureLists from "@/components/FeatureLists";
+import FeaturesOne from "@/components/FeaturesOne";
 import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero />
       <FeatureCards />
       <FeatureLists />
+      <FeaturesOne />
     </main>
   );
 }
